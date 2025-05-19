@@ -1,0 +1,206 @@
+body {
+    background-color: gray;
+    margin: 0;
+}
+
+.header {
+    padding: 20px 20px 0 20px;
+    display: flex;
+    mix-blend-mode: overlay;
+    /*   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);*/ 
+}
+
+.div1 {
+    width: 50%;
+}
+
+.div1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.div2 {
+    width: 50%;
+    background-color: rgb(254, 253, 251);
+}
+
+.div2 h2 {
+    font-size: 30px;
+    text-align: end;
+    color: rgb(140, 29, 22);
+    font-family: sans-serif;
+    margin: 0;
+    padding: 15px 80px 0 0;
+}
+
+.div2 hr {
+    background-color: rgb(99, 97, 99);
+    width: 50%;
+    margin: 0.5% 0 0.5% 39%;
+    height: 4px;
+    border: none;
+}
+
+.div2 h1 {
+    font-size: 51px;
+    text-align: end;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    margin: -10px auto;
+    padding-right: 80px;
+}
+
+.div2 p {
+    font-size: 21px;
+    text-align: end;
+    color: rgb(99, 97, 99);
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 5px 80px 0 0;
+}
+/*Nav Bar  Section*/
+.Nav{
+display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(105, 15, 13);
+    color: white;
+    margin: 0 20px 0 20px;
+}
+.nav-links {
+  list-style: none;
+    display: flex;
+    gap: 50px;
+    padding: 15px 15px 15px 480px;
+    margin: 0;
+}
+.nav-links li a {
+ color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+.nav-links li a:hover {
+  background-color: #555;
+  padding: 15px 5px ;
+}
+
+/*Main Section*/
+.main{
+    background-color:white;
+    margin: 0 20px;
+    display: flex;
+}
+.section1{
+    margin: 40px 15px 0 40px;
+    width: 50%;
+}
+.section1 img{
+    width: 100%;
+}
+.section2{
+    background-image: url(form_bg.jpg);
+    background-repeat: no-repeat;
+    margin:40px 40px 0 15px;
+    display: flex;
+    background-size: cover;
+  background-position: center;
+}
+.div3 {
+    background-color:rgb(105, 15, 13);
+    width: fit-content;
+    height: fit-content;
+}
+.div3 h2{
+    margin: 0;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+.div4{
+    padding: 0 70px 0 70px;
+}
+
+.div4 p {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #222;
+  margin: 0;
+}
+
+.highlight {
+  color: #003366;
+    font-weight: bold;
+    font-size: 44px;
+    font-family: system-ui;
+}
+
+
+/*
+.div4 p{
+        padding-left: 30px;
+    margin: 0;
+    font-size: 27px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.div4 h2{
+    padding: 20px;
+}
+
+
+
+
+/*
+.li1 {
+  background-color: #555;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+
+
+/*
+.Nav a{
+    text-decoration: none;
+    gap: 15px;
+}
+
+
+
+
+
+/*
+
+.header {
+    display: flex;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 400px;
+  color: white;
+}
+
+.div1 {
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent dark overlay 
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  mix-blend-mode: overlay; /* blending mode 
+}
+
+h2 {
+  font-size: 3rem;
+  z-index: 1;
+}
