@@ -1,13 +1,19 @@
 body {
-    background-color: gray;
     margin: 0;
+    padding: 0 20px;
+    font-family: Arial, sans-serif;
+    background-color: grey;
 }
 
 .header {
-    padding: 20px 20px 0 20px;
+
+    /*padding: 0 20px;*/
+    /*   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);*/
+}
+
+.head {
     display: flex;
-    mix-blend-mode: overlay;
-    /*   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);*/ 
+    flex-direction: row;
 }
 
 .div1 {
@@ -25,182 +31,219 @@ body {
 }
 
 .div2 h2 {
-    font-size: 30px;
+    font-size: 22px;
     text-align: end;
     color: rgb(140, 29, 22);
-    font-family: sans-serif;
     margin: 0;
-    padding: 15px 80px 0 0;
+    padding: 20px 30px 0 0;
 }
 
 .div2 hr {
     background-color: rgb(99, 97, 99);
-    width: 50%;
-    margin: 0.5% 0 0.5% 39%;
-    height: 4px;
+    width: 46%;
+    margin: 0.5% 0 0.5% 49%;
+    height: 3px;
     border: none;
 }
 
 .div2 h1 {
-    font-size: 51px;
+    font-size: 37px;
     text-align: end;
     font-weight: 900;
     letter-spacing: 1px;
-    font-family: sans-serif;
     margin: -10px auto;
-    padding-right: 80px;
+    padding-right: 30px;
 }
 
 .div2 p {
-    font-size: 21px;
+    font-size: 15px;
     text-align: end;
     color: rgb(99, 97, 99);
     font-weight: bold;
     letter-spacing: 1px;
-    font-family: sans-serif;
     margin: 0;
-    padding: 5px 80px 0 0;
+    padding: 10px 30px 0 0;
 }
+
 /*Nav Bar  Section*/
-.Nav{
-display: flex;
-    justify-content: center;
+.Nav {
+    display: flex;
+    justify-content: space-around;
     align-items: center;
     background-color: rgb(105, 15, 13);
     color: white;
-    margin: 0 20px 0 20px;
 }
+
 .nav-links {
-  list-style: none;
+    list-style: none;
     display: flex;
-    gap: 50px;
-    padding: 15px 15px 15px 480px;
+    gap: 40px;
+    padding: 15px 0 15px 490px;
     margin: 0;
 }
+
 .nav-links li a {
- color: white;
+    color: white;
     text-decoration: none;
-    font-family: sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     letter-spacing: 1px;
     transition: color 0.3s ease;
 }
+
 .nav-links li a:hover {
-  background-color: #555;
-  padding: 15px 5px ;
+    background-color: #555;
+    padding: 15px 5px;
+}
+/*Main Sction*/
+.section1{
+    background-color: white;
+    width: 100%;
+    display: flex;
 }
 
-/*Main Section*/
-.main{
-    background-color:white;
-    margin: 0 20px;
+.div3 img {
+    padding: 30px 10px 0 30px;
+    width: 615px;
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);*/
+}
+.main-div1 {
     display: flex;
+    position: relative;
 }
-.section1{
-    margin: 40px 15px 0 40px;
-    width: 50%;
+.img1 img{
+    padding: 30px 30px 0 10px;
+    width: 530px;
+    height: 387px;
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);*/
 }
-.section1 img{
-    width: 100%;
-}
-.section2{
-    background-image: url(form_bg.jpg);
-    background-repeat: no-repeat;
-    margin:40px 40px 0 15px;
-    display: flex;
-    background-size: cover;
-  background-position: center;
-}
-.div3 {
-    background-color:rgb(105, 15, 13);
-    width: fit-content;
-    height: fit-content;
-}
-.div3 h2{
-    margin: 0;
+.div4 h2 {
+   margin: 0;
     color: white;
     font-size: 30px;
     padding: 10px;
     letter-spacing: 1px;
-}
-.div4{
-    padding: 0 70px 0 70px;
+    background-color: rgb(187, 7, 6);
+    position: absolute;
+    left: 10px;
+    top: 30px;
 }
 
 .div4 p {
-  font-family: Arial, sans-serif;
-  font-size: 24px;
-  font-weight: bold;
-  color: #222;
-  margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #222;
+    margin: 0;
+    position: absolute;
+    right: 70px;
+    top: 30px;
 }
 
 .highlight {
-  color: #003366;
+    color: #003366;
     font-weight: bold;
-    font-size: 44px;
+    font-size: 35px;
     font-family: system-ui;
 }
-
-
-/*
-.div4 p{
-        padding-left: 30px;
+.div5 p {
     margin: 0;
-    font-size: 27px;
-    font-family: sans-serif;
-    font-weight: bold;
+    font-size: 20px;
+    top: 105px;
+    left: 20px;
+    position: absolute;
 }
-.div4 h2{
-    padding: 20px;
-}
-
-
-
-
-/*
-.li1 {
-  background-color: #555;
-  color: white;
-  text-decoration: none;
-  letter-spacing: 1px;
-  text-align: center;
-}
-
-
-
-/*
-.Nav a{
-    text-decoration: none;
-    gap: 15px;
-}
-
-
-
-
-
-/*
-
-.header {
+.div6 {
+    width: 285px;
+    position: absolute;
+    bottom: 155px;
+    padding-left: 30px;
     display: flex;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  height: 400px;
-  color: white;
 }
 
-.div1 {
-  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent dark overlay 
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  mix-blend-mode: overlay; /* blending mode 
+.div6 label {
+    font-weight: bold;
+    line-height: 1.9;
+    width: fit-content;
 }
 
-h2 {
-  font-size: 3rem;
-  z-index: 1;
+.div6 div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
+
+.div6 input {
+    font-size: 14px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    padding: 4px 15px;
+}
+.div7{
+    padding-left: 15px;
+}
+.div7 img {
+    position: absolute;
+    top: 25%;
+    width: 190px;
+    transform: rotate(13deg);
+}
+
+.div8 textarea {
+    width: 453px;
+    height: 54px;
+    position: absolute;
+    left: 40px;
+    bottom: 85px;
+}
+
+.div8 textarea::placeholder {
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.div9 {
+        position: absolute;
+    bottom: 20px;
+    left: 33px;
+    align-items: center;
+}
+
+.div9 i {
+    font-size: 16px;
+    color: #555;
+}
+
+.div9 button {
+    width: 275px;
+    padding: 11px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgb(187, 7, 6);
+    border: none;
+    color: white;
+    letter-spacing: 1px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+.div9 img {
+    width: 9px;
+    padding: 0 0px 0px 3px;
+}
+.section2{
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    display: flex;
+}
+.div01 h2{
+    font-size: 27px;
+    margin: 0;
+    padding: 70px 0 0 55px;
+}
+.div01 span{
+    color: red;
+}
+
+
+
